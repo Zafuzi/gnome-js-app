@@ -1,0 +1,18 @@
+{
+	"name": "gnome-js-app",
+	"version": "1.0.0",
+	"description": "Simple JS app for GNOME desktops",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "gulp && gjs index.js"
+	},
+	"author": "zafuzi",
+	"license": "MIT",
+	"dependencies": {
+		"jquery": "^3.1.0"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1"
+	}
+}

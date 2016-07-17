@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Hello, GNOME!</title>
+    <style type="text/css">
+      body,
+      html {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: red;
+      }
+
+      img {
+        width: 250px;
+        margin: auto;
+        display: inline-block;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <main>
+      <button>Hello</button>
+      <h1> Hello Gnome </h1>
+      <img src="img/gnome-image.png" />
+    </main>
+
+    <script src="src/js/jquery.min.js"></script>
+    <script>
+      $(window).resize(function(e) {
+        // console.log($(window).width());
+      });
+    </script>
+  </body>
+
+</html>
